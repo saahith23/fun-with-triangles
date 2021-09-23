@@ -3,11 +3,14 @@ const hypotenuseBtn= document.querySelector("#hypotenuse-button");
 const outputE1= document.querySelector("#output");
 
 
-function calculateSumOfSquares(){
+function calculateSumOfSquares(a,b){
     const sumOfSquares = a*a + b*b;
-    console.log(sumofSquares)
+    // console.log(sumOfSquares)
+    return sumOfSquares;
 }
 function calculateHypotenuse(){
-    calculateSumOfSquares(3,4);
+   const sumOfSquares= calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
+    const lenghtOfHypotenuse = Math.sqrt(sumOfSquares);
+    outputE1.innerText= "The length of Hypotenuse is" +lenghtOfHypotenuse;
 }
 hypotenuseBtn.addEventListener('click', calculateHypotenuse);
