@@ -1,5 +1,5 @@
 var txtInput= document.querySelectorAll(".input-one");
-var btn = document.querySelector("#button");
+var btn = document.querySelector("#is-triangle-btn");
 var txtOutput= document.querySelector("#output");
 
 function calculateProduct(a,b){
