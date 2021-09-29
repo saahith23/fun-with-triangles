@@ -16,4 +16,4 @@ else{
 }
 
 }
-isTriangleBtn.addEventListener('click',isTriangle)
+isTriangleBtn.addEventListener("click",isTriangle)
