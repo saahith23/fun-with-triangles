@@ -1,4 +1,4 @@
-const input = document.querySelector(".angle-input");
+const input = document.querySelectorAll(".angle-input");
 const isTriangleBtn = document.querySelector("#is-triangle-button");
 const outputE1 = document.querySelector("#output");
 
@@ -14,5 +14,6 @@ if(sumOfAngles===180){
 else{
     outputE1.innerText="Oh Oh! The angles don't form a triangle";
 }
+
 }
-isTriangleBtn.addEventListener('click',isTriangle);
+isTriangleBtn.addEventListener('click',isTriangle)
