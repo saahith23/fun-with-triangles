@@ -1,5 +1,5 @@
 const sides = document.querySelectorAll(".side-input");
-const hypotenuseBtn= document.querySelector("#hypotenuse-button");
+const hypotenuseBtn= document.querySelector("#is-triangle-btn");
 const outputE1= document.querySelector("#output");
 
 

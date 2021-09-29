@@ -1,5 +1,5 @@
 const quizform = document.querySelector("#quiz-form");
-const submitAnswerBtn=document.querySelector("#submit-button");
+const submitAnswerBtn=document.querySelector("#is-triangle-btn");
 const outputE1 = document.querySelector("#output");
 
 
