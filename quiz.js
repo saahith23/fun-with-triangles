@@ -1,4 +1,4 @@
-const quizform = document.querySelector("#quiz-form");
+const quizform = document.querySelector(".quiz-form");
 const submitAnswerBtn=document.querySelector("#is-triangle-btn");
 const outputE1 = document.querySelector("#output");
 
@@ -18,3 +18,4 @@ for(let value of formResults.values()){
 outputE1.innerText= "your score is"+score;
 }
 submitAnswerBtn.addEventListener('click',calculateScore);
+
