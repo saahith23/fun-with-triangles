@@ -1,6 +1,6 @@
 
 .navi-container{
-    background-color:white ;
+    background-color:azure ;
     padding: 2rem 0rem;
 }
 .navi-item{
@@ -25,6 +25,10 @@
 }
 #is-triangle-btn{
    background-color:#49a0eb;
-   padding:1rem 1.5rem;
+   padding:0.5rem 1rem;
    border-radius: 1rem;
+   margin-top: 1rem;
+}
+body{
+    background-color: azure;
 }
